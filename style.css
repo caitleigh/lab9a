@@ -1,5 +1,5 @@
 body {
-    width: 960px;
+    width: 970px;
     margin: 0 auto;
 }
 nav {
@@ -37,31 +37,27 @@ li {
 
 
 .image2, .image3 , .image4 {
+    height: 375px;
+    width: 300px;
     display: inline-block;
     padding-top: 15px;
     margin-bottom: 30px;
 }
 
-.image3, .image4 {
-    padding-left: 30px;
+.image3 {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-/* .sec3 {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-} */
 
-.image5, .featuredText {
-    display: inline-block;
-    margin-left: auto;
-    padding: 15px;
+.image5 {
+    float: left;
+    margin-right: 30px;
 }
 
 .featuredText { 
-    width: 480px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
     overflow: auto;
     
 }

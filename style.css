@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background-color: grey;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+li {
+    display: inline-block;
+    color: lightgrey;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.logo {
+    float: left;
+}
+
+.image1 {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image2, .image3 , .image4 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.sec3 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.image5, .featuredText {
+    display: inline-block;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.featuredText { 
+    width: 480px;
+    height: 350px;
+    overflow: auto;
+    
+}
+
+footer {
+    height: 50px;
+    background-color: grey;
+}
